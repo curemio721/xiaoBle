@@ -1,14 +1,17 @@
 {
-  "title": "Mouse keys (simple) (my)",
+  "title": "Mouse keys (simple) (my Rctrl 2.5)",
   "rules": [
     {
-      "description": "Mouse keys (simple) (my)",
+      "description": "Mouse keys (simple) (my Rctrl 2.5)",
       "manipulators": [
         {
           "type": "basic",
           "from": {
             "key_code": "j",
             "modifiers": {
+              "mandatory": [
+                "right_control"
+              ],
               "optional": [
                 "any"
               ]
@@ -17,7 +20,8 @@
           "to": [
             {
               "mouse_key": {
-                "y": -800
+                "y": -300,
+                "speed_multiplier": 2.5
               }
             }
           ]
@@ -38,7 +42,8 @@
           "to": [
             {
               "mouse_key": {
-                "x": -800
+                "x": -300,
+                "speed_multiplier": 2.5
               }
             }
           ]
@@ -59,7 +64,8 @@
           "to": [
             {
               "mouse_key": {
-                "y": 800
+                "y": 300,
+                "speed_multiplier": 2.5            
               }
             }
           ]
@@ -67,7 +73,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": ",",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": [
                 "right_control"
@@ -80,7 +86,8 @@
           "to": [
             {
               "mouse_key": {
-                "x": 800
+                "x": 300,
+                "speed_multiplier": 2.5
               }
             }
           ]
@@ -101,7 +108,7 @@
           "to": [
             {
               "mouse_key": {
-                "vertical_wheel": -32
+                "vertical_wheel": -50
               }
             }
           ]
@@ -109,7 +116,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": ".",
+            "key_code": "period",
             "modifiers": {
               "mandatory": [
                 "right_control"
@@ -122,7 +129,7 @@
           "to": [
             {
               "mouse_key": {
-                "vertical_wheel": 32
+                "vertical_wheel": 50
               }
             }
           ]
